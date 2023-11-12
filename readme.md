@@ -2,7 +2,7 @@
 
 Plushies for Minetest
 ![screenshot of plushies](screenshot.jpg)
-* Bears (Brown Bear, Polar Bear)
+* Bears (Brown Bear, Polar Bear, Giant Panda)
 * Cat
 * Hamster
 * Octopus
