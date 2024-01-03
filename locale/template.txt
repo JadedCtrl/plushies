@@ -1,0 +1,8 @@
+# textdomain: plushies
+Orange cat plushy=
+Black cat plushy=
+Brown bear plushie=
+Polar bear plushie=
+Giant panda plushie=
+Black hamster plushy=
+Octopus plushy=

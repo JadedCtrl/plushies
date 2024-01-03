@@ -1,5 +1,7 @@
+local S = minetest.get_translator("plushies")
+
 minetest.register_node("plushies:cat_orange", {
-    description = "Orange cat plushy",
+    description = S("Orange cat plushy"),
     drawtype = "mesh",
     mesh = "plushies_cat.b3d",
     tiles = {"plushies_cat_orange.png"},
@@ -30,7 +32,7 @@ minetest.register_craft({
 
 
 minetest.register_node("plushies:cat_black", {
-    description = "Black cat plushy",
+    description = S("Black cat plushy"),
     drawtype = "mesh",
     mesh = "plushies_cat.b3d",
     tiles = {"plushies_cat_black.png"},
@@ -64,19 +66,19 @@ minetest.register_craft({
 local bears = {
     {
         id = "bear_brown",
-        caption = "Brown bear plushie",
+        caption = S("Brown bear plushie"),
         ingredient = "dye:brown",
         ingredient2 = "",
     },
     {
         id = "bear_polar",
-        caption = "Polar bear plushie",
+        caption = S("Polar bear plushie"),
         ingredient = "dye:white",
         ingredient2 = "",
     },
     {
         id = "bear_panda",
-        caption = "Giant panda plushie",
+        caption = S("Giant panda plushie"),
         ingredient = "dye:black",
         ingredient2 = "dye:white",
     },
@@ -116,7 +118,7 @@ end
 
 
 minetest.register_node("plushies:hamster_black", {
-    description = "Black hamster plushy",
+    description = S("Black hamster plushy"),
     drawtype = "mesh",
     mesh = "plushies_hamster.b3d",
     tiles = {"plushies_hamster_black.png"},
@@ -147,7 +149,7 @@ minetest.register_craft({
 
 
 minetest.register_node("plushies:octopus", {
-    description = "Octopus plushy",
+    description = S("Octopus plushy"),
     drawtype = "mesh",
     mesh = "plushies_octopus.b3d",
     tiles = {"plushies_octopus.png"},
